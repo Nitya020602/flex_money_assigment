@@ -1,0 +1,102 @@
+.form{
+    width: 25rem;
+    height:30rem ;
+    background-color: rgb(255, 255, 255);
+    margin: 4rem;
+    border-radius: 2rem;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.75rem;
+}
+.field{
+    display: flex;
+    padding: 1rem;
+    height: 1rem;
+}
+.field input{
+    background: none;
+    border: none;
+    width: 100%;
+    font-size: 0.8rem;
+}
+.slots{
+    display: flex;
+    margin-left: 0.5rem ;
+}
+.slots label{
+    margin-right: 0.5rem;
+}
+.slot{
+    margin-right: 0.5rem;
+    display: flex;
+}
+.matter{
+    padding: 1rem;
+}
+.payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.payment button{
+    border: none;
+    background-color:rgba(15, 191, 235, 0.7);
+    font-size: 1.2rem;
+    border-radius: 10px;
+    width: 6rem;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px 2px rgba(0,0,0,.4);
+}
+@media screen and (min-width:10480px) {
+    .form{
+        margin-top:2.5rem ;
+        width: 50%;
+        height: 20rem;
+    }
+}
+@media screen and (max-width:1040px){
+    .form{
+        margin-top:2.5rem ;
+        width: 50%;
+        height: auto;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .matter{
+        display: flex;
+        justify-content: center;
+    }
+    .field{
+        padding: 0.5rem;
+    }
+    .payment{
+        margin-top: 0.25rem;
+        padding-bottom: 1rem;
+    }
+}
+@media screen and (max-width:680px){
+    .field{
+        font-size: .75rem;
+    }
+    .slot{
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: .75rem;
+    }
+    .matter{
+        padding-left: 1;
+        margin-top: 1rem;
+        font-size: 0.75rem;
+    }
+    .payment button{
+        font-size: 0.8rem;
+        width: 5rem;
+        height: 1.5rem;
+        font-weight: 700;
+    }
+}
